@@ -1,0 +1,5 @@
+vendor
+certs
+.env
+public/assets
+orders.sqlite3

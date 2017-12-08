@@ -1,0 +1,156 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "8bcd484a68493297bbc549218b320c40",
+    "content-hash": "e2c9c8571eda81049876a9751a4e3199",
+    "packages": [
+        {
+            "name": "pecee/simple-router",
+            "version": "3.4.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/skipperbent/simple-php-router.git",
+                "reference": "877e0aa937fb8ad6dc83a59827052d7fbcf70e5e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/skipperbent/simple-php-router/zipball/877e0aa937fb8ad6dc83a59827052d7fbcf70e5e",
+                "reference": "877e0aa937fb8ad6dc83a59827052d7fbcf70e5e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.7.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Pecee\\": "src/Pecee/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Simon Sessingø",
+                    "email": "simon.sessingoe@gmail.com"
+                }
+            ],
+            "description": "Simple, fast PHP router that is easy to get integrated and in almost any project. Heavily inspired by the Laravel router.",
+            "keywords": [
+                "laravel",
+                "pecee",
+                "php",
+                "route",
+                "router",
+                "routing",
+                "simple-php-router"
+            ],
+            "time": "2017-12-06 18:06:09"
+        },
+        {
+            "name": "vlucas/phpdotenv",
+            "version": "v2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vlucas/phpdotenv.git",
+                "reference": "3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c",
+                "reference": "3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8 || ^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Dotenv\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause-Attribution"
+            ],
+            "authors": [
+                {
+                    "name": "Vance Lucas",
+                    "email": "vance@vancelucas.com",
+                    "homepage": "http://www.vancelucas.com"
+                }
+            ],
+            "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
+            "keywords": [
+                "dotenv",
+                "env",
+                "environment"
+            ],
+            "time": "2016-09-01 10:05:43"
+        },
+        {
+            "name": "wearede/tbcpay-php",
+            "version": "0.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wearede/tbcpay-php.git",
+                "reference": "0f538ec39521b99a454269edb7e6cc14869bd87b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wearede/tbcpay-php/zipball/0f538ec39521b99a454269edb7e6cc14869bd87b",
+                "reference": "0f538ec39521b99a454269edb7e6cc14869bd87b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "WeAreDe\\TbcPay\\": "src/"
+                },
+                "psr-4": {
+                    "WeAreDe\\TbcPay\\": "src/WeAreDe/TbcPay/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sandro Dzneladze",
+                    "email": "sandro@weare.de.com"
+                }
+            ],
+            "description": "online payments php SDK - collect credit card payments via TbcBank processor",
+            "time": "2017-03-08 06:11:52"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

@@ -1,0 +1,15 @@
+{
+    "require": {
+        "pecee/simple-router": "^3.4",
+        "wearede/tbcpay-php": "^0.9.0",
+        "vlucas/phpdotenv": "^2.4"
+    },
+    "autoload": {
+        "psr-0": {
+            "WeAreDe\\TbcPay\\": "src/"
+        },
+        "psr-4": {
+            "WeAreDe\\TbcPay\\": "src/WeAreDe/TbcPay/"
+        }
+    }
+}
