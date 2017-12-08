@@ -1,5 +1,6 @@
 vendor
-certs
+certs/*
+!certs/.gitkeep
 .env
 public/assets
 orders.sqlite3
