@@ -68,9 +68,15 @@ class TbcPayController
         $this->render('fail');
     }
 
-    public function orders()
+    public function orders($status = null)
     {
-        $query  = $this->SQLite3->query('SELECT trans_id, status, name, for, amount, note, created_at FROM orders');
+        if ($status) {
+            $query  = $this->SQLite3->prepare('SELECT trans_id, status, name, for, amount, note, created_at FROM orders WHERE status = :status');
+            $query->bindValue(':status', $status);
+            $query  = $query->execute();
+        } else {
+            $query  = $this->SQLite3->query('SELECT trans_id, status, name, for, amount, note, created_at FROM orders');
+        }
         $orders = [];
         while($result = $query->fetchArray(SQLITE3_ASSOC)) {
            $orders[] = $result; 
