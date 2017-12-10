@@ -9,16 +9,16 @@
     "packages": [
         {
             "name": "pecee/simple-router",
-            "version": "3.4.8.0",
+            "version": "3.4.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skipperbent/simple-php-router.git",
-                "reference": "877e0aa937fb8ad6dc83a59827052d7fbcf70e5e"
+                "reference": "7c0a20115e37d886eca5c41f67c1cc8ea78f7be6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skipperbent/simple-php-router/zipball/877e0aa937fb8ad6dc83a59827052d7fbcf70e5e",
-                "reference": "877e0aa937fb8ad6dc83a59827052d7fbcf70e5e",
+                "url": "https://api.github.com/repos/skipperbent/simple-php-router/zipball/7c0a20115e37d886eca5c41f67c1cc8ea78f7be6",
+                "reference": "7c0a20115e37d886eca5c41f67c1cc8ea78f7be6",
                 "shasum": ""
             },
             "require": {
@@ -53,7 +53,7 @@
                 "routing",
                 "simple-php-router"
             ],
-            "time": "2017-12-06 18:06:09"
+            "time": "2017-12-09 22:58:33"
         },
         {
             "name": "vlucas/phpdotenv",
